@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Agenda — Hugues Fantino</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="pages.css" />
+</head>
+<body data-page="agenda">
+
+<div id="nav-mount"></div>
+
+<header class="page-hero" data-screen-label="Agenda Hero">
+  <div class="container">
+    <div class="kicker" data-reveal>agenda</div>
+    <h1 data-reveal data-reveal-delay="1">Sur <em>scène</em>,<br/>en <em>retraite</em>.</h1>
+    <p class="lede" data-reveal data-reveal-delay="2">
+      Concerts, retraites, animations, professions de foi.
+      Pour une date privée ou une demande spécifique, écrivez-moi.
+    </p>
+    <div class="cal-source" data-reveal data-reveal-delay="3">
+      <span class="live"></span>
+      Synchronisé en direct · Google Calendar
+    </div>
+  </div>
+</header>
+
+<section class="cal-wrap" data-screen-label="Calendrier">
+  <div class="container">
+
+    <div class="cal-tabs" data-reveal>
+      <button class="cal-tab" aria-selected="true" data-filter="all">Tout</button>
+      <button class="cal-tab" data-filter="concert">Concerts</button>
+      <button class="cal-tab" data-filter="retraite">Retraites</button>
+      <button class="cal-tab" data-filter="ecole">Écoles</button>
+      <button class="cal-tab" data-filter="profession">Professions de foi</button>
+    </div>
+
+    <div class="month-block" data-reveal>
+      <h3 class="month-label">Mars <em>2026</em><small>2 événements</small></h3>
+      <div class="agenda-list">
+        <a class="agenda-item" href="#" data-cat="concert">
+          <div class="ag-date">12 mars<small>20h30</small></div>
+          <div>
+            <span class="ag-tag">Concert</span>
+            <div class="ag-title">Chants pour le carême</div>
+          </div>
+          <div class="ag-meta">Église Saint-Étienne · Lyon</div>
+          <span class="ag-arrow">→</span>
+        </a>
+        <a class="agenda-item" href="#" data-cat="ecole">
+          <div class="ag-date">24 mars<small>matin</small></div>
+          <div>
+            <span class="ag-tag">École</span>
+            <div class="ag-title">Atelier — collège Saint-Joseph</div>
+          </div>
+          <div class="ag-meta">Chambéry</div>
+          <span class="ag-arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="month-block" data-reveal>
+      <h3 class="month-label">Avril <em>2026</em><small>3 événements</small></h3>
+      <div class="agenda-list">
+        <a class="agenda-item" href="#" data-cat="retraite">
+          <div class="ag-date">04 avril<small>3 jours</small></div>
+          <div>
+            <span class="ag-tag">Retraite</span>
+            <div class="ag-title">Habiter le silence</div>
+          </div>
+          <div class="ag-meta">Abbaye de Tamié · Savoie</div>
+          <span class="ag-arrow">→</span>
+        </a>
+        <a class="agenda-item" href="#" data-cat="concert">
+          <div class="ag-date">17 avril<small>21h</small></div>
+          <div>
+            <span class="ag-tag">Concert</span>
+            <div class="ag-title">Vendredi saint — voix &amp; orgue</div>
+          </div>
+          <div class="ag-meta">Cathédrale Saint-Maurice · Vienne</div>
+          <span class="ag-arrow">→</span>
+        </a>
+        <a class="agenda-item" href="#" data-cat="profession">
+          <div class="ag-date">28 avril<small>19h</small></div>
+          <div>
+            <span class="ag-tag">Profession de foi</span>
+            <div class="ag-title">Préparation — paroisse Notre-Dame</div>
+          </div>
+          <div class="ag-meta">Annecy</div>
+          <span class="ag-arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="month-block" data-reveal>
+      <h3 class="month-label">Mai <em>2026</em><small>2 événements</small></h3>
+      <div class="agenda-list">
+        <a class="agenda-item" href="#" data-cat="ecole">
+          <div class="ag-date">18 mai<small>matin</small></div>
+          <div>
+            <span class="ag-tag">École</span>
+            <div class="ag-title">Atelier chant — CM1/CM2</div>
+          </div>
+          <div class="ag-meta">École Jeanne d'Arc · Annecy</div>
+          <span class="ag-arrow">→</span>
+        </a>
+        <a class="agenda-item" href="#" data-cat="retraite">
+          <div class="ag-date">29 mai<small>week-end</small></div>
+          <div>
+            <span class="ag-tag">Retraite</span>
+            <div class="ag-title">Pentecôte — chants &amp; silence</div>
+          </div>
+          <div class="ag-meta">Abbaye de Sénanque · Vaucluse</div>
+          <span class="ag-arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="month-block" data-reveal>
+      <h3 class="month-label">Juin <em>2026</em><small>1 événement</small></h3>
+      <div class="agenda-list">
+        <a class="agenda-item" href="#" data-cat="profession">
+          <div class="ag-date">02 juin<small>19h</small></div>
+          <div>
+            <span class="ag-tag">Profession de foi</span>
+            <div class="ag-title">Célébration paroissiale</div>
+          </div>
+          <div class="ag-meta">Paroisse Saint-Pierre · Grenoble</div>
+          <span class="ag-arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div id="foot-mount"></div>
+
+<script>
+  // Tabs filter
+  document.addEventListener('click', (e) => {
+    const tab = e.target.closest('.cal-tab');
+    if (!tab) return;
+    document.querySelectorAll('.cal-tab').forEach(t => t.setAttribute('aria-selected', 'false'));
+    tab.setAttribute('aria-selected', 'true');
+    const f = tab.dataset.filter;
+    document.querySelectorAll('.agenda-item').forEach(it => {
+      it.style.display = (f === 'all' || it.dataset.cat === f) ? '' : 'none';
+    });
+    // Hide empty months
+    document.querySelectorAll('.month-block').forEach(mb => {
+      const visible = [...mb.querySelectorAll('.agenda-item')].some(i => i.style.display !== 'none');
+      mb.style.display = visible ? '' : 'none';
+    });
+  });
+</script>
+
+<div id="tweaks-root"></div>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="shared-nav.js"></script>
+<script src="shared.js" defer></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="tweaks-app.jsx"></script>
+</body>
+</html>
