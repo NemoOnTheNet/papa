@@ -29,23 +29,21 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
-        <div class="foot-col">
-          <h4>Écouter</h4>
-          <ul>
-            <li><a href="#">YouTube</a></li>
-            <li><a href="#">Spotify</a></li>
-            <li><a href="#">SoundCloud</a></li>
-          </ul>
-        </div>
-        <div class="foot-col">
-          <h4>Contact</h4>
-          <ul>
-            <li><a href="mailto:contact@huguesfantino.com">contact@huguesfantino.com</a></li>
-            <li><a href="tel:+33000000000">+33 0 00 00 00 00</a></li>
-            <li><a href="#">Instagram</a></li>
-          </ul>
-        </div>
-      </div>
+            <div class="foot-col">
+      <h4>Écouter</h4>
+      <ul>
+        <li><a href="https://www.youtube.com/channel/UC7vRUtxSlDuDxGAqqaNrtAQ"><i class="fa-brands fa-youtube"></i>YouTube</a></li>
+        <li><a href="https://open.spotify.com/intl-fr/artist/6vfGMNIgUUbdzDLjPV6Ne3"> <i class="fa-brands fa-spotify"></i>Spotify</a></li>
+      </ul>
+    </div>
+    <div class="foot-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:huguesfantino@gmail.com">huguesfantino@gmail.com</a></li>
+        <li><a href="tel:+33613414097">+33 6 13 41 40 97</a></li>
+        <li><a href="https://www.facebook.com/onitnafhug"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+      </ul>
+    </div>
       <div class="foot-bottom">
         <span>© 2026 Hugues Fantino. Tous droits réservés.</span>
         <span>Mentions légales · Confidentialité</span>
